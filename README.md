@@ -4,7 +4,7 @@ Welcome to My  Portfolio!
 
 ### Weblink: [Live Website](https://sairamganapavarapu.netlify.app/)
 ## Some Images:
-<img width="450px;" src=" "/>
+<img width="450px;" src="https://res.cloudinary.com/dz1zt2xfc/image/upload/v1732638947/portfolio_zwkl4s.png"/>
 
 ## Table of Contents
 - [Introduction](#introduction)
