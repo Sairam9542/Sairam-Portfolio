@@ -163,11 +163,19 @@ const Button = styled.a`
     padding: 12px 16px;
     border-radius: 8px;
     background-color: ${({ theme }) => theme.primary};
+    &:hover {
+        box-shadow: 0 0 10px 0 #00fed5 inset, 0 0 20px 2px #00fed5;
+        border: 3px solid #00fed5;
+    }
     ${({ dull, theme }) => dull && `
-        background-color: ${theme.bgLight};
+        background-color: transparent;
+        border: 3px solid #00fed5;
+        -webkit-transition: all .15s ease-in-out;
+        transition: all .15s ease-in-out;
         color: ${theme.text_secondary};
         &:hover {
-            background-color: ${({ theme }) => theme.bg + 99};
+            box-shadow: 0 0 10px 0 #00fed5 inset, 0 0 20px 2px #00fed5;
+            border: 3px solid #00fed5;
         }
     `}
     cursor: pointer;
