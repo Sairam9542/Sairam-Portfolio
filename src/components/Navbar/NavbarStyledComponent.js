@@ -59,12 +59,26 @@ export const NavItems = styled.ul`
 
 export const NavLink = styled.a`
     color: ${({ theme }) => theme.text_primary};
+    position: relative;
     font-weight: 500;
     cursor: pointer;
-    transition: all 0.2s ease-in-out;
     text-decoration: none;
-    :hover {
-      color: ${({ theme }) => theme.primary};
+    :after {
+          transition: all 0.4s;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          margin: auto;
+          width: 0%;
+          content: ' ';
+          color: ${({ theme }) => theme.text_primary};
+          background: ${({ theme }) => theme.primary};
+          height: 1px;
+    }
+
+    :hover:after {
+            width: 100%;
     }
 
     &.active {

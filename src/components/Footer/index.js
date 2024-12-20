@@ -52,8 +52,36 @@ const Nav = styled.nav`
 const NavLink = styled.a`
 color: ${({ theme }) => theme.text_primary};
   text-decoration: none;
+  position: relative;
   font-size: 1.2rem;
-  transition: color 0.2s ease-in-out;
+  padding: 8px 10px;
+  display: inline-block;
+  :before, :after {
+          content: "";
+          position: absolute;
+          display: block;
+          border: 0px solid transparent;
+          width: 0%;
+          height: 0%;
+          transition: all 0.5s ease;
+  }
+  :after {
+          top: 0;
+          left: 0;
+          border-top: 2px solid transparent;
+          border-left: 2px solid transparent;
+  }
+  :before {
+          right: 0;
+          bottom: 0;
+          border-bottom: 2px solid transparent;
+          border-right: 2px solid transparent;
+  }
+  :hover::before, :hover::after {
+          width: 98%;
+          height: 96%;
+          border-color: #fff;
+  }
   &:hover {
     color: ${({ theme }) => theme.primary};
   }
