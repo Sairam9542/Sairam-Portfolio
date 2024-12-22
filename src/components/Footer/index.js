@@ -80,7 +80,7 @@ color: ${({ theme }) => theme.text_primary};
   :hover::before, :hover::after {
           width: 98%;
           height: 96%;
-          border-color: #fff;
+          border-color: ${({ theme }) => theme.primary};
   }
   &:hover {
     color: ${({ theme }) => theme.primary};
@@ -98,11 +98,20 @@ const SocialMediaIcons = styled.div`
 const SocialMediaIcon = styled.a`
   display: inline-block;
   margin: 0 1rem;
+  padding: 0 0.5rem;
+  padding-top: 0.3rem;
   font-size: 1.5rem;
+  border: 1px solid ${({ theme }) => theme.primary};
+  box-shadow: 0 0 8px 3px rgba(67, 241, 213, 0.4);
+  border-radius: 50%;
+  cursor: pointer;
   color: ${({ theme }) => theme.text_primary};
-  transition: color 0.2s ease-in-out;
+  transition: all 0.4s ease-in-out;
   &:hover {
     color: ${({ theme }) => theme.primary};
+    transform: translateY(-10px);
+    box-shadow: 0 0 30px 4px rgba(67, 241, 213, 0.6);
+    filter: brightness(1.1);
   }
 `;
 
