@@ -249,13 +249,26 @@ export const projects = [
     title: "Institute Clone UI",
     date: "July 2024",
     description:
-      "It is Frontend of the Training Institute Using the HTML,CSS and Bootstrap.As the Icons are used from the Fontawesome.It is the clean UI of the It Institute of the FRontend part Clone.It is Deployed in the Netlify Application",
+      "It is Frontend page of the Training Institute Using the HTML,CSS and Bootstrap.As the Icons are used from the Fontawesome.It is the clean UI of the It Institute of the Frontend part Clone.It is Deployed in the Netlify Application",
     image:
       "https://res.cloudinary.com/dz1zt2xfc/image/upload/v1732281329/Institute_mt2bgc.png",
     tags: ["Bootstrap", "HTML", "CSS", "Vs Code"],
     category: "Frontend",
     github: "https://github.com/Sairam9542/Digit_page2",
     webapp: "https://digitwebpage2.netlify.app",
+  },
+  {
+    id: 5,
+    title: "Calculator",
+    date: "December 2024",
+    description:
+      "It is web application created by using the React js built by HTML, CSS and JavaScript.By Using this Calculator we can do all Mathematics solutions like Addition,Multiplication, Subraction And Division",
+    image:
+      "https://res.cloudinary.com/dz1zt2xfc/image/upload/v1734876376/calci_ros3r0.png",
+    tags: ["React js", "HTML", "CSS", "JavaScript"],
+    category: "web app",
+    github: "https://github.com/Sairam9542/My-Calculator",
+    webapp: "https://calculatorbymesairam.netlify.app/",
   },
 ];
 
