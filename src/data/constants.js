@@ -9,7 +9,7 @@ export const Bio = {
     "As a Java Full Stack Developer, I specialize in designing and building using both front-end and back-end technologies. I am proficient in Java frameworks like Spring Boot, Hibernate, and Thymeleaf for backend development, and skilled in front-end technologies such as HTML, CSS, JavaScript, and React. My expertise includes creating RESTful APIs, working with databases like MySQL, and deploying applications using tools like Git, and Netlify.",
   github: "https://github.com/Sairam9542",
   resume:
-    "https://drive.google.com/file/d/14U2Mf_f62K_2glZn1jdllRm5gAeEQ8xU/view?usp=sharing",
+    "https://drive.google.com/file/d/1qj04K7mpRqYPDuIh1wWc9vgnzuBYdBKF/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/sairamganapavarapu96/",
   twitter: "https://x.com/SairamGanapava3",
   insta: "https://www.instagram.com/__.sai.ram.__/",
