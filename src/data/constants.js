@@ -270,6 +270,19 @@ export const projects = [
     github: "https://github.com/Sairam9542/My-Calculator",
     webapp: "https://calculatorbymesairam.netlify.app/",
   },
+  {
+    id: 6,
+    title: "Ai-Chatbot",
+    date: "March 2025",
+    description:
+      "This is an AI-powered chatbot designed to assist users and providing guidance on the given input data of any Company. Whether you're a beginner or an experienced, this chatbot helps answer queries,we can change the data which AI responds on by giving our data or our Company details.",
+    image:
+      "https://res.cloudinary.com/dz1zt2xfc/image/upload/v1743404316/Screenshot_2025-03-31_122714_tdzkwm.png",
+    tags: ["React js", "HTML", "CSS", "JavaScript", "API"],
+    category: "web app",
+    github: "https://github.com/Sairam9542/Ai-Chatbot",
+    webapp: "",
+  },
 ];
 
 export const TimeLineData = [
