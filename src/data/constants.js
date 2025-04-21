@@ -187,20 +187,15 @@ export const projects = [
     title: "Book Store",
     date: "Aug 2024 - Oct 2024",
     description:
-      "The Book Management System is a CRUD-based web application that uses Spring Boot, Thymeleaf, JPA, MySQL, and Bootstrap for its responsiveness. This application allows a user to manage books in a library through various operations such as adding, updating, viewing, and deleting book records. The back-end deals with database work through the Spring Data JPA, while data is stored in the MySQL database. Regarding the frontend, Thymeleaf is also used integrated with Bootstrap to produce clean and responsive interfaces for better user experience.",
+      "The Book Management System is a CRUD-based web application that uses Spring Boot, Thymeleaf, JPA, MySQL, and Bootstrap for its responsiveness. This application allows a user to manage books in a library through various operations such as adding, updating, viewing, and deleting book records. ",
     image:
-      "https://res.cloudinary.com/dz1zt2xfc/image/upload/v1732267832/Screenshot_2024-10-30_222203_smftoa.png",
+      "https://res.cloudinary.com/dz1zt2xfc/image/upload/v1744993606/Screenshot_2025-04-18_215405_jfqbhh.png",
     tags: ["Java", "Spring Boot", "Hibernate", "MySql", "Bootstrap", "Thymeleaf"],
     category: "web app",
     github: "https://github.com/Sairam9542/BookStoreApplication",
     webapp: "",
     member: [
-      {
-        name: "Sairam Ganapavarapu",
-        img: "https://res.cloudinary.com/dz1zt2xfc/image/upload/v1732275019/HeroImage_aaior6.png",
-        linkedin: "https://www.linkedin.com/in/sairamganapavarapu96/",
-        github: "https://github.com/Sairam9542/",
-      },
+      
     ],
   },
   {
@@ -208,9 +203,9 @@ export const projects = [
     title: "Blog Application",
     date: "Sep 2024 - Oct 2024",
     description:
-      "A full-stack solution to manage the blog post will be realized using a Spring Boot application, MySQL database, and a JPA with a React front-end. Interaction with the MySQL database will be done using JPA, which enables easy use of creation, retrieval, update, and delete of blog posts mapped directly to the tables of the database. The backend API interacts with the frontend side of React, allowing efficient blogging for users. Hence, the frontend and backend interact to give users a responsive, modern blog platform characterized by smooth user interactions with dynamic content rendering and persistent data storage.",
+      "A full-stack solution to manage the blog post will be realized using a Spring Boot application, MySQL database, React. It is creation, retrieval, update, and delete of blog posts. The backend API interacts with the frontend side of React.",
     image:
-      "https://res.cloudinary.com/dz1zt2xfc/image/upload/v1732267892/Screenshot_37_thwdtf.png",
+      "https://res.cloudinary.com/dz1zt2xfc/image/upload/v1745238857/Screenshot_2025-04-21_180344_eltiea.png",
     tags: [
       "React Js",
       "Spring Boot",
@@ -223,12 +218,7 @@ export const projects = [
     github: "https://github.com/Sairam9542/Blogging-Application",
     webapp: "",
     member: [
-      {
-        name: "Sairam Ganapavarapu",
-        img: "https://res.cloudinary.com/dz1zt2xfc/image/upload/v1732275019/HeroImage_aaior6.png",
-        linkedin: "https://www.linkedin.com/in/sairamganapavarapu96/",
-        github: "https://github.com/Sairam9542/",
-      },
+      
     ],
   },
   {
@@ -277,11 +267,11 @@ export const projects = [
     description:
       "This is an AI-powered chatbot designed to assist users and providing guidance on the given input data of any Company. Whether you're a beginner or an experienced, this chatbot helps answer queries,we can change the data which AI responds on by giving our data or our Company details.",
     image:
-      "https://res.cloudinary.com/dz1zt2xfc/image/upload/v1743404316/Screenshot_2025-03-31_122714_tdzkwm.png",
+      "https://res.cloudinary.com/dz1zt2xfc/image/upload/v1743505755/Screenshot_2025-04-01_163327_tnckvv.png",
     tags: ["React js", "HTML", "CSS", "JavaScript", "API"],
     category: "web app",
     github: "https://github.com/Sairam9542/Ai-Chatbot",
-    webapp: "",
+    webapp: "https://chat-bot-sample.netlify.app/",
   },
 ];
 
