@@ -9,7 +9,7 @@ export const Bio = {
     "As a Java Full Stack Developer, I specialize in designing and building using both front-end and back-end technologies. I am proficient in Java frameworks like Spring Boot, Hibernate, and Thymeleaf for backend development, and skilled in front-end technologies such as HTML, CSS, JavaScript, and React. My expertise includes creating RESTful APIs, working with databases like MySQL, and deploying applications using tools like Git, and Netlify.",
   github: "https://github.com/Sairam9542",
   resume:
-    "https://drive.google.com/file/d/1iyFCnx_mpFzDc8C3UJXoMmFhxqCrhCTn/view?usp=drive_link",
+    "https://drive.google.com/file/d/16v0EsCqcRRTt6glu1TOvQflRelRkBiJn/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/sairamganapavarapu96/",
   twitter: "https://x.com/SairamGanapava3",
   insta: "https://www.instagram.com/__.sai.ram.__/",
@@ -184,6 +184,22 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "Saloon Booking Application",
+    date: "Jan 2025 - May 2024",
+    description:
+      "The Saloon Booking Web Application is a full-stack, microservices-based platform built with 8+ Spring Boot services and a React.js frontend, designed to manage salon appointments, payments, and reviews. It supports over 15 user flows including registration, service booking, and customer feedback. The application features secure role-based access using Keycloak and JWT, managing authentication for both Customers and Salon Owners through Spring Cloud Gateway. Real-time booking updates are enabled via RabbitMQ and WebSocket, improving system responsiveness and reducing API latency by 40%. Razorpay and Stripe are integrated for seamless online payments. The frontend is built with 8+ reusable components and Redux for efficient state management, enhancing navigation speed and user experience. The app is fully containerized with Docker and Docker Compose, reducing setup time from 1 hour to under 10 minutes and supporting scalable deployment across environments. ",
+    image:
+      "https://res.cloudinary.com/dz1zt2xfc/image/upload/v1750396426/Screenshot_2025-06-18_164906_s8oxpy.png",
+    tags: ["Java" ,"SpringBoot" ,"React.js" ,"MySQL","Microservices"  ,"Keycloak","Docker"],
+    category: "Full Stack",
+    github: "https://github.com/Sairam9542/Saloon-Booking",
+    webapp: "https://styluno.netlify.app/",
+    member: [
+      
+    ],
+  },
+  {
+    id: 1,
     title: "Book Store",
     date: "Aug 2024 - Oct 2024",
     description:
@@ -191,15 +207,15 @@ export const projects = [
     image:
       "https://res.cloudinary.com/dz1zt2xfc/image/upload/v1744993606/Screenshot_2025-04-18_215405_jfqbhh.png",
     tags: ["Java", "Spring Boot", "Hibernate", "MySql", "Bootstrap", "Thymeleaf"],
-    category: "web app",
-    github: "https://github.com/Sairam9542/BookStoreApplication",
+    category: "Full Stack",
+    github: "https://github.com/Sairam9542/BookStoreManagement",
     webapp: "",
     member: [
       
     ],
   },
   {
-    id: 1,
+    id: 3,
     title: "Blog Application",
     date: "Sep 2024 - Oct 2024",
     description:
@@ -214,7 +230,7 @@ export const projects = [
       "JavaScript",
       "CSS",
     ],
-    category: "web app",
+    category: "Full Stack",
     github: "https://github.com/Sairam9542/Blogging-Application",
     webapp: "",
     member: [
@@ -222,7 +238,7 @@ export const projects = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "Digit UI Design",
     date: "Jul 2024 - Aug 2024",
     description:
@@ -235,7 +251,7 @@ export const projects = [
     webapp: "https://digitinstitute.netlify.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Institute Clone UI",
     date: "July 2024",
     description:
@@ -248,7 +264,7 @@ export const projects = [
     webapp: "https://digitwebpage2.netlify.app",
   },
   {
-    id: 5,
+    id: 6,
     title: "Calculator",
     date: "December 2024",
     description:
@@ -256,12 +272,12 @@ export const projects = [
     image:
       "https://res.cloudinary.com/dz1zt2xfc/image/upload/v1734876376/calci_ros3r0.png",
     tags: ["React js", "HTML", "CSS", "JavaScript"],
-    category: "web app",
+    category: "Frontend",
     github: "https://github.com/Sairam9542/My-Calculator",
     webapp: "https://calculatorbymesairam.netlify.app/",
   },
   {
-    id: 6,
+    id: 7,
     title: "Ai-Chatbot",
     date: "March 2025",
     description:
@@ -269,7 +285,7 @@ export const projects = [
     image:
       "https://res.cloudinary.com/dz1zt2xfc/image/upload/v1743505755/Screenshot_2025-04-01_163327_tnckvv.png",
     tags: ["React js", "HTML", "CSS", "JavaScript", "API"],
-    category: "web app",
+    category: "Frontend",
     github: "https://github.com/Sairam9542/Ai-Chatbot",
     webapp: "https://chat-bot-sample.netlify.app/",
   },
